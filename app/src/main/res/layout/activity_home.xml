@@ -17,7 +17,7 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/name_text"
+        android:id="@+id/user_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nombre: "
@@ -26,7 +26,7 @@
         android:layout_marginBottom="8dp"/>
 
     <TextView
-        android:id="@+id/username_text"
+        android:id="@+id/user_username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Usuario: "
@@ -35,7 +35,7 @@
         android:layout_marginBottom="8dp"/>
 
     <TextView
-        android:id="@+id/email_text"
+        android:id="@+id/user_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Email: "
@@ -44,7 +44,7 @@
         android:layout_marginBottom="8dp"/>
 
     <TextView
-        android:id="@+id/phone_text"
+        android:id="@+id/user_phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Teléfono: "
@@ -81,4 +81,12 @@
         android:padding="12dp"
         android:layout_marginTop="32dp"/>
 
+    <Button
+        android:id="@+id/btn_go_catalog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Catálogo"
+        android:backgroundTint="#3B84F1"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"/>
 </LinearLayout>
